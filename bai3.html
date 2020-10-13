@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 3</title>
+</head>
+<body>
+<script>
+    let a1 = 0;
+    let a2 = 1;
+    let cons = 0;
+    let t ="0,1"
+    let number =+ prompt("so fibonacci hien thi la : ");
+    for (let i=2; i<number; i++) {
+
+        cons = a1;
+        a1 = a2;
+        a2 = cons + a1;
+        t += a1 + a2 + ",";
+    }
+       document.write(t);
+
+
+</script>
+</body>
+</html>
